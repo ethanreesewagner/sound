@@ -1,0 +1,49 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  </head>
+
+  <body style="background-color: lightblue;">
+      <center>
+          <div style="background-color: rgb(220, 169, 75);">
+            <p style="font-size: 40;">Sound Identification Web App</p>
+            <p style="font-size: 18;">This Website will Identify a Sound you Make
+               with One of Five Sounds. (Powered By ml5.js)</p><br>
+          </div>
+          <div>
+            <br><button class="btn btn-success" onclick="identify()"><h2>Start</h2></button><br><br>
+            <p id="sound" style="font-size: 30;">Sound: </p>
+            <p id="accuracy" style="font-size: 30;">Accuracy: </p><br>
+            <img src="clap.jpg" id="one">
+            <img src="dance.jpg" id="two">
+            <img src="paper.jpg" id="three">
+            <img src="stranger.jpg" id="four">
+            <img src="noise.jpg" id="five">
+          </div>
+          <div>
+
+          </div class="footer" style="background-color: white;"><br><br>
+            <p style="font-size:18;">Developed By Ethan Reese Wagner</p>
+          </div>
+      </center>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
